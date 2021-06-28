@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3sp"
+    android:background="@drawable/background2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15sp">
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:src="@drawable/signup_icon"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:background="@color/yellow1"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textColor="#ffffff"
+            android:id="@+id/username"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:background="@color/yellow1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:textColor="#ffffff"
+            android:id="@+id/email"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:background="@color/yellow1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your number"
+            android:textColor="#ffffff"
+            android:id="@+id/usernumber"
+            android:inputType="number"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:background="@color/yellow1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Password"
+            android:textColor="#ffffff"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sign up "
+            android:background="@color/yellow1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/signupBtn"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" cancel "
+            android:background="@color/yellow1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/cancelBtn"
+            android:layout_marginLeft="130sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/welcome"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter the emergency number"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/emergencyNumber"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:text="Save"
+            android:id="@+id/savebtn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Emergency Number Saved!"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/viewEmergencyNumber"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:text="SOS"
+            android:id="@+id/sosbtn"/>
+
+
+    </LinearLayout>
+</ScrollView>

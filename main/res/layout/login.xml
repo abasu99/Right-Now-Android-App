@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15sp"
+    android:background="@color/red1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180sp"
+            android:src="@drawable/login_icon"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Number"
+            android:textStyle="bold"
+            android:background="@color/blue1"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your number"
+            android:id="@+id/number"
+            android:inputType="number"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Password"
+            android:textStyle="bold"
+            android:background="@color/blue1"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Password"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Log in "
+            android:textStyle="bold"
+            android:background="@color/blue1"
+            android:textSize="30dp"
+            android:id="@+id/loginBtn"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/toast_custom">
+
+    <ImageView
+        android:id="@+id/toast_image"
+        android:layout_width="300sp"
+        android:layout_height="500sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:src="@drawable/customtoast_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#421B1B"
+        android:clickable="false"
+        android:text=" PLEASE ENTER ALL FIELDS ! "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+</LinearLayout>
